@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    background-color: azure;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.logo {}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-des {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.link {
+    padding-bottom: 15px;
+}
+
+.production {
+    display: flex;
+}
+
+.hinhanh {
+    flex: 4;
+    display: flex;
+}
+
+.anhnho {}
+
+.anhlon {}
+
+.mota {
+    flex: 6;
+}
+
+.danhgia>span {
+    padding-right: 20px;
+}
+
+.mua {
+    display: flex;
+    justify-content: first baseline;
+}
+
+.add {
+    text-align: center;
+    width: 150px;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid gray;
+    height: 40px;
+    line-height: 40px;
+}
+
+.checkout {
+    text-align: center;
+    width: 150px;
+    background-color: greenyellow;
+    height: 40px;
+    line-height: 40px;
+}
+
+.relate {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.san {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemre>img {
+    width: 90%;
+}
+
+
+/* .tieude {
+    margin-left: 80px;
+} */
+
+.hinhnho {
+    position: relative;
+    right: -180px;
+}
